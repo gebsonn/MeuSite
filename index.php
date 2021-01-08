@@ -1,6 +1,8 @@
 <?php
 
 //Meu código PHP vem aqui.
+echo "GEBSONNN SEU EMOOOOO!";
+
 $pg = isset($_GET['pg']);
 
 if ($pg) {
