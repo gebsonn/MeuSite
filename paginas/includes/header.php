@@ -66,15 +66,25 @@
                         <li class="nav-item active"><a class="nav-link" href="?pg=inicio"> Inicio </a></li>
                         <li class="nav-item active"><a class="nav-link" href="?pg=produtos"> Produtos </a></li>
                         <li class="nav-item active"><a class="nav-link" href="?pg=contato"> Contato </a></li>
-                        <li class="nav-item active"><a class="nav-link" href="?pg=login"> Login </a></li>
-                        <li class="nav-item active"><a class="nav-link" href="?pg=login2"> Login2 </a></li>
-                        <li class="nav-item active"><a class="nav-link" href="?pg=login3"> Login3 </a></li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
                         <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
                         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
                     </form>
-        aaa            
+                    <ul class="navbar-nav ">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                AREA ADMINISTRATIVA
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="?pg=login"> ADM 1 </a>
+                                <a class="dropdown-item" href="?pg=login2"> ADM 2 </a>
+                                <a class="dropdown-item" href="?pg=login3"> ADM 3 </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item alert-danger" href="#"><span class="btn-outline-successn"></span> Sair</a>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </nav>
             <!--Fim NavegaÃ§Ã£o-->
